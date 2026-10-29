@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 92" role="img" aria-labelledby="title desc">
+  <title id="title">SNS에서 주가로</title>
+  <desc id="desc">초록색 SNS 말풍선과 빨간색 상승 차트</desc>
+  <rect x="1" y="1" width="278" height="90" rx="18" fill="#F7FBFD" stroke="#DCE8F2"/>
+  <path d="M22 23a9 9 0 0 1 9-9h61a9 9 0 0 1 9 9v28a9 9 0 0 1-9 9H65L49 73V60H31a9 9 0 0 1-9-9z" fill="#DDF2EE"/>
+  <path d="M44 34h35M48 47h27M57 29l-8 24m29-24-8 24" stroke="#168E84" stroke-width="4" stroke-linecap="round"/>
+  <path d="M113 45h29" stroke="#9BB0BF" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="m135 38 8 7-8 7" fill="none" stroke="#9BB0BF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="155" y="18" width="106" height="56" rx="12" fill="#FFF4F4"/>
+  <path d="M166 63h84M166 48h84M166 33h84" stroke="#F0E2E3" stroke-width="1"/>
+  <path d="M173 61 192 52 208 48 226 34 241 25" fill="none" stroke="#C9343F" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m232 24 12 0 0 12" fill="none" stroke="#C9343F" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

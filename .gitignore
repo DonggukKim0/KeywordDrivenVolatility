@@ -1,0 +1,39 @@
+# Python 캐시 및 테스트 캐시
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# 가상환경
+.venv/
+venv/
+env/
+
+# 비밀 설정 (공유용 예시 파일은 포함)
+.env
+.env.*
+!.env.example
+!.env.*.example
+.streamlit/secrets.toml
+.opendart
+
+# 비공개 SNS 원자료 및 원자료에서 복원 가능한 파생 데이터
+data/raw/sns_daily_mentions_sentiment.csv
+data/processed/sns_keyword_features.csv
+data/processed/model_dataset.csv
+data/processed/train.csv
+data/processed/test.csv
+data/processed/eda/step03/
+eda-outputs/step01/
+eda-outputs/step03/
+model-outputs/
+presentation/*.pptx
+
+# 로컬 보관용 제외 파일 전체
+temp/
+
+# 운영체제 생성 파일
+.DS_Store
+Thumbs.db

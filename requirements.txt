@@ -1,0 +1,21 @@
+# Data collection and processing
+finance-datareader>=0.9.202
+numpy
+pandas>=2.2
+
+# Modeling and analysis
+joblib
+lightgbm
+matplotlib
+scikit-learn>=1.4
+scipy
+statsmodels
+torch
+
+# Dashboard
+plotly>=5.18
+requests>=2.31
+streamlit
+
+# Notebook display helpers
+ipython

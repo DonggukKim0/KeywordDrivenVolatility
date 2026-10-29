@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 160" role="img" aria-labelledby="title desc">
+  <title id="title">늘어나는 SNS 언급</title>
+  <desc id="desc">해시태그 말풍선과 점점 높아지는 언급 막대</desc>
+  <rect x="3" y="3" width="254" height="154" rx="24" fill="#F2FBF9"/>
+  <path d="M24 29a14 14 0 0 1 14-14h103a14 14 0 0 1 14 14v54a14 14 0 0 1-14 14H83L56 119V97H38a14 14 0 0 1-14-14z" fill="#CDEFE8"/>
+  <path d="M53 44h60M48 62h62M70 34l-12 44m43-44L89 78" stroke="#118A7C" stroke-width="7" stroke-linecap="round"/>
+  <path d="M162 116h72" stroke="#A9C7C4" stroke-width="3" stroke-linecap="round"/>
+  <rect x="169" y="87" width="13" height="29" rx="5" fill="#80CFC2"/>
+  <rect x="190" y="68" width="13" height="48" rx="5" fill="#42B9A9"/>
+  <rect x="211" y="43" width="13" height="73" rx="5" fill="#168E84"/>
+  <path d="m171 75 28-23 16 4 21-25" fill="none" stroke="#168E84" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M224 31h13v13" fill="none" stroke="#168E84" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="172" cy="37" r="9" fill="#DCEBFF"/>
+  <circle cx="148" cy="129" r="6" fill="#98D9CF"/>
+  <circle cx="36" cy="135" r="5" fill="#B1E4DC"/>
+</svg>

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="368" viewBox="0 0 1120 368" role="img" aria-labelledby="title desc">
+  <title id="title">키워드 급증과 테마주 분석 흐름</title>
+  <desc id="desc">30개 테마와 300개 종목의 주가, SNS, 공시 데이터를 공통 전처리하고 EDA를 수행한 뒤 시장 변수와 SNS 변수를 사용하는 모델을 학습하고 평가합니다.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 6 3 0 6" fill="none" stroke="#7C9B9A" stroke-width="1.4"/>
+    </marker>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', 'Malgun Gothic', sans-serif; }
+      .heading { font-size: 22px; font-weight: 700; fill: #142D44; }
+      .caption { font-size: 15px; fill: #526778; }
+      .number { font-size: 14px; font-weight: 600; fill: #65818B; }
+      .icon { fill: none; stroke: #10877F; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="1118" height="366" rx="20" fill="#FFFFFF" stroke="#DFE8EC"/>
+  <path d="M33 32h6l5-8 6 14 5-10h8" fill="none" stroke="#10877F" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="73" y="37" font-size="13" font-weight="700" letter-spacing="1.7" fill="#10877F">KEYWORD DRIVEN VOLATILITY</text>
+  <text x="32" y="79" font-size="29" font-weight="700" fill="#142D44">키워드 급증과 테마주 분석</text>
+  <rect x="850" y="43" width="238" height="36" rx="18" fill="#ECF7F5"/>
+  <text x="969" y="66" text-anchor="middle" font-size="15" font-weight="600" fill="#176D68">30개 테마 · 300개 종목</text>
+
+  <g fill="#F7FAFC" stroke="#E4ECF0">
+    <rect x="32" y="112" width="240" height="206" rx="14"/>
+    <rect x="304" y="112" width="240" height="206" rx="14"/>
+    <rect x="576" y="112" width="240" height="206" rx="14"/>
+  </g>
+  <rect x="848" y="112" width="240" height="206" rx="14" fill="#EFF8F6" stroke="#CDE6DF"/>
+  <g fill="none" stroke="#7C9B9A" stroke-width="1.5" marker-end="url(#arrow)">
+    <path d="M279 215h18"/>
+    <path d="M551 215h18"/>
+    <path d="M823 215h18"/>
+  </g>
+
+  <text x="244" y="142" text-anchor="end" class="number">01</text>
+  <text x="516" y="142" text-anchor="end" class="number">02</text>
+  <text x="788" y="142" text-anchor="end" class="number">03</text>
+  <text x="1060" y="142" text-anchor="end" class="number">04</text>
+
+  <!-- Data: keyword surges and market observations. -->
+  <g class="icon">
+    <path d="m77 172 27-17m-27 17 30 23m-3-40 3 40" stroke="#90C8C2"/>
+    <circle cx="77" cy="172" r="10" fill="#DDF2EE"/>
+    <circle cx="104" cy="155" r="6" fill="#FFFFFF"/>
+    <circle cx="107" cy="195" r="7" fill="#FFFFFF"/>
+    <path d="M130 155h37v45h-37z" stroke="#526E82"/>
+    <path d="M138 186l6-9 7 5 8-14"/>
+    <path d="M139 193h19" stroke="#B4C5CF"/>
+  </g>
+  <text x="56" y="249" class="heading">데이터</text>
+  <text x="56" y="278" class="caption">주가 · SNS · 공시 수집</text>
+
+  <!-- Preparation: multiple sources become shared features. -->
+  <g class="icon">
+    <rect x="328" y="149" width="20" height="12" rx="3" fill="#DDF2EE"/>
+    <rect x="328" y="174" width="20" height="12" rx="3" fill="#DDF2EE"/>
+    <rect x="328" y="199" width="20" height="12" rx="3" fill="#DDF2EE"/>
+    <path d="M354 155h13l15 25-15 25h-13m0-25h28" stroke="#90C8C2"/>
+    <rect x="392" y="152" width="48" height="56" rx="6" fill="#FFFFFF"/>
+    <path d="M402 165h28m-28 13h28m-28 13h18"/>
+  </g>
+  <text x="328" y="249" class="heading">공통 전처리</text>
+  <text x="328" y="278" class="caption">SNS · 시장 피쳐 생성</text>
+
+  <!-- EDA: distributions and observed relationships. -->
+  <g class="icon">
+    <path d="M600 153v52h72" stroke="#526E82"/>
+    <path d="M613 197v-17m14 17v-31m14 31v-23" stroke-width="7" stroke="#90C8C2"/>
+    <circle cx="671" cy="169" r="20" fill="#FFFFFF"/>
+    <path d="m686 184 17 17" stroke-width="4"/>
+    <path d="m660 172 8-8 6 5 7-10"/>
+  </g>
+  <text x="600" y="249" class="heading">EDA</text>
+  <text x="600" y="272" class="caption">상관 · CAR · 공시 · 급등 비율</text>
+  <text x="600" y="294" class="caption">시가 매수 · 사건 · 감성 탐색</text>
+
+  <!-- Model: feature configurations, not measured performance. -->
+  <g>
+    <rect x="872" y="151" width="112" height="25" rx="5" fill="#FFFFFF" stroke="#9FB6C5"/>
+    <rect x="872" y="187" width="112" height="25" rx="5" fill="#DDF2EE" stroke="#66ADA5"/>
+    <text x="928" y="168" text-anchor="middle" font-size="13" font-weight="600" fill="#526E82">시장 변수</text>
+    <text x="928" y="204" text-anchor="middle" font-size="13" font-weight="600" fill="#176D68">시장 + SNS 변수</text>
+    <path d="M993 163h13v37h-13m13-19h13" fill="none" stroke="#10877F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1030" cy="181" r="10" fill="#FFFFFF" stroke="#10877F" stroke-width="2"/>
+    <path d="M1026 178h8m-8 6h8" stroke="#10877F" stroke-width="1.6"/>
+  </g>
+  <text x="872" y="249" class="heading">모델 학습·평가</text>
+  <text x="872" y="278" class="caption">예측 성능 비교 · 강건성 분석</text>
+
+  <circle cx="37" cy="343" r="4" fill="#10877F"/>
+  <text x="50" y="348" font-size="13" fill="#65818B">분석 흐름</text>
+  <text x="1088" y="348" text-anchor="end" font-size="13" fill="#65818B">온라인 관심의 변화부터 SNS 변수의 예측력 평가까지</text>
+</svg>

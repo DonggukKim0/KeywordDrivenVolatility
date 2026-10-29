@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 160" role="img" aria-labelledby="title desc">
+  <title id="title">급등하는 주가</title>
+  <desc id="desc">상승하는 주가선과 높아지는 거래 막대</desc>
+  <rect x="3" y="3" width="254" height="154" rx="24" fill="#F2F7FE"/>
+  <path d="M30 124h202M30 96h202M30 68h202M30 40h202" stroke="#F1DFE1" stroke-width="1.5"/>
+  <rect x="43" y="99" width="19" height="25" rx="4" fill="#F3A0A3"/>
+  <rect x="76" y="88" width="19" height="36" rx="4" fill="#EF858A"/>
+  <rect x="109" y="74" width="19" height="50" rx="4" fill="#EA6E75"/>
+  <rect x="142" y="57" width="19" height="67" rx="4" fill="#E45A62"/>
+  <rect x="175" y="39" width="19" height="85" rx="4" fill="#D94750"/>
+  <path d="M36 107C67 99 91 87 115 75S165 51 207 28" fill="none" stroke="#C9343F" stroke-width="6" stroke-linecap="round"/>
+  <path d="M185.6 28.8 207 28 194.8 45.6" fill="none" stroke="#C9343F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
