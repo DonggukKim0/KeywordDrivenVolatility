@@ -88,8 +88,6 @@ flowchart TB
 
 ### Streamlit 대시보드
 
-배포 주소: `[배포 후 여기에 Streamlit 앱 주소를 입력하세요]`
-
 데이터가 포함되지 않은 공개 복사본에서는 데이터 기반 결과를 재현할 수 없습니다.<br>
 로컬 데이터와 산출물을 별도로 준비하면 EDA·모델 분석을 실행할 수 있습니다.<br>
 앱은 `streamlit run src/streamlit/app.py`로 실행합니다.<br>
